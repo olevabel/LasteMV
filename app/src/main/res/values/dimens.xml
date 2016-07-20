@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <!-- Text sizes -->
+    <dimen name="text_size_24sp">24sp</dimen>
+    <dimen name="text_size_32sp">32sp</dimen>
+    <dimen name="text_size_36sp">36sp</dimen>
+    <dimen name="text_size_72sp">72sp</dimen>
+    <dimen name="icon_width_height">24dp</dimen>
+
+    <!-- Custom toolbar dimens-->
+    <dimen name="custom_toolbar_height">56dp</dimen>
+    <dimen name="custom_toolbar_home_button_right_margin">8dp</dimen>
+    <dimen name="custom_toolbar_title_without_button_left_margin">32dp</dimen>
+
+    <!-- MainFragment dimens -->
+    <dimen name="main_fragment_component_height">72dp</dimen>
+    <dimen name="main_fragment_top_margin">48dp</dimen>
+    <dimen name="main_fragment_long_btn_left_right_margin">68dp</dimen>
+    <dimen name="main_fragment_long_btn_width">264dp</dimen>
+    <dimen name="main_fragment_layout_left_right_margin">24dp</dimen>
+    <dimen name="main_fragment_normal_btn_width">126dp</dimen>
+    <dimen name="main_fragment_component_spacing">12dp</dimen>
+
+    <!-- DiciplineFragment dimens-->
+    <dimen name="dicipline_fragment_top_margin">24dp</dimen>
+    <dimen name="dicipline_fragment_component_top_bottom_margin">12dp</dimen>
+    <dimen name="event_fragment_header_height">48dp</dimen>
+    <dimen name="event_fragment_header_name_left_margin">16dp</dimen>
+    <dimen name="text_size_14sp">14sp</dimen>
+    <dimen name="event_fragment_header_name_top_padding">12dp</dimen>
+    <dimen name="event_fragment_body_layout_height">72dp</dimen>
+    <dimen name="event_fargment_body_top_margin">24dp</dimen>
+    <dimen name="event_fragment_body_component_left_right_margin">12dp</dimen>
+    <dimen name="event_fragment_body_unit_height">24dp</dimen>
+    <dimen name="event_fragment_footer_height">60dp</dimen>
+    <dimen name="event_fragment_footer_long_button_minwidth">172dp</dimen>
+    <dimen name="event_fragment_footer_top_margin">32dp</dimen>
+    <dimen name="event_fragment_footer_short_button_minwidth">72dp</dimen>
+    <dimen name="event_fragment_footer_bottom_margin">12dp</dimen>
+    <dimen name="event_fragment_header_margin_top">24dp</dimen>
+    <dimen name="new_button_min_height">60dp</dimen>
+    <dimen name="event_fragment_smaller_button_min_height">60dp</dimen>
+    <dimen name="text_size_15sp">15sp</dimen>
+    <dimen name="text_size_13sp">13sp</dimen>
+</resources>

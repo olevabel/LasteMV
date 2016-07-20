@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_toolbar_height"
+        android:layout_marginLeft="@dimen/main_fragment_layout_left_right_margin"
+        android:layout_marginRight="@dimen/main_fragment_layout_left_right_margin"
+        android:minWidth="@dimen/main_fragment_long_btn_width"
+        android:background="@drawable/toolbar"
+        android:orientation="horizontal">
+
+
+        <ato.spordiklubi.lasteMV.view.TypefaceTextView
+            style="@style/FontBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:minHeight="@dimen/custom_toolbar_height"
+            android:minWidth="@dimen/main_fragment_long_btn_width"
+            android:text="@string/toolbar_main_fragment"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/main_fragment_layout_left_right_margin"
+        android:layout_marginRight="@dimen/main_fragment_layout_left_right_margin"
+        android:orientation="vertical">
+
+        <ato.spordiklubi.lasteMV.view.TypefaceTextView
+            android:id="@+id/btn_mini"
+            style="@style/Button.White.Long.Bold"
+            android:layout_width="@dimen/main_fragment_long_btn_width"
+            android:layout_height="@dimen/main_fragment_component_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/main_fragment_top_margin"
+            android:minWidth="@dimen/main_fragment_long_btn_width"
+            android:text="@string/text_btn_mini"
+            android:textColor="@color/accent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/main_fragment_component_spacing">
+
+            <ato.spordiklubi.lasteMV.view.TypefaceTextView
+                android:id="@+id/btn_three"
+                style="@style/Button.White.Bold"
+                android:layout_marginEnd="@dimen/main_fragment_component_spacing"
+                android:layout_marginRight="@dimen/main_fragment_component_spacing"
+                android:text="@string/btn_three" />
+
+            <ato.spordiklubi.lasteMV.view.TypefaceTextView
+                android:id="@+id/btn_four"
+                style="@style/Button.White.Bold"
+                android:text="@string/btn_four" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/main_fragment_component_spacing">
+
+            <ato.spordiklubi.lasteMV.view.TypefaceTextView
+                android:id="@+id/btn_five"
+                style="@style/Button.White.Bold"
+                android:layout_marginEnd="@dimen/main_fragment_component_spacing"
+                android:layout_marginRight="@dimen/main_fragment_component_spacing"
+                android:text="@string/btn_five"
+
+                />
+
+            <ato.spordiklubi.lasteMV.view.TypefaceTextView
+                android:id="@+id/btn_six"
+                style="@style/Button.White.Bold"
+                android:text="@string/btn_six" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/main_fragment_component_spacing">
+
+            <ato.spordiklubi.lasteMV.view.TypefaceTextView
+                android:id="@+id/btn_seven"
+                style="@style/Button.White.Bold"
+                android:layout_marginEnd="@dimen/main_fragment_component_spacing"
+                android:layout_marginRight="@dimen/main_fragment_component_spacing"
+                android:text="@string/btn_seven"
+
+                />
+
+            <ato.spordiklubi.lasteMV.view.TypefaceTextView
+                android:id="@+id/btn_eight"
+                style="@style/Button.White.Bold"
+                android:text="@string/btn_eight" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/main_fragment_component_spacing">
+
+            <ato.spordiklubi.lasteMV.view.TypefaceTextView
+                android:id="@+id/btn_nine"
+                style="@style/Button.White.Bold"
+                android:layout_marginEnd="@dimen/main_fragment_component_spacing"
+                android:layout_marginRight="@dimen/main_fragment_component_spacing"
+                android:text="@string/btn_nine" />
+
+            <ato.spordiklubi.lasteMV.view.TypefaceTextView
+                android:id="@+id/btn_ten"
+                style="@style/Button.White.Bold"
+                android:text="@string/btn_ten" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

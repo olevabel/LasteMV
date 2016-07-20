@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/custom_toolbar_height"
+        android:layout_marginLeft="@dimen/main_fragment_layout_left_right_margin"
+        android:layout_marginRight="@dimen/main_fragment_layout_left_right_margin"
+        android:background="@drawable/toolbar"
+        android:minWidth="@dimen/main_fragment_long_btn_width"
+        android:orientation="horizontal">
+
+
+        <ato.spordiklubi.lasteMV.view.TypefaceTextView
+            style="@style/FontBold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="@dimen/custom_toolbar_height"
+            android:minWidth="@dimen/main_fragment_long_btn_width"
+            android:textAllCaps="true"
+            android:textSize="@dimen/text_size_24sp"
+            android:text="@string/toolbar_dicipline_fragment"
+            android:textColor="@color/white"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/main_fragment_layout_left_right_margin"
+        android:layout_marginRight="@dimen/main_fragment_layout_left_right_margin"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ato.spordiklubi.lasteMV.view.TypefaceTextView
+                android:id="@+id/btn_sprint"
+                style="@style/Button.White.Long.Bold"
+                android:layout_marginTop="@dimen/dicipline_fragment_top_margin"
+                android:layout_marginBottom="@dimen/dicipline_fragment_component_top_bottom_margin"
+                android:text="@string/btn_sprint"
+                android:layout_gravity="center"
+                />
+            <ato.spordiklubi.lasteMV.view.TypefaceTextView
+                android:id="@+id/btn_long_jump"
+                style="@style/Button.White.Long.Bold"
+                android:layout_marginTop="@dimen/dicipline_fragment_component_top_bottom_margin"
+                android:layout_marginBottom="@dimen/dicipline_fragment_component_top_bottom_margin"
+                android:text="@string/btn_long_jump"
+                android:layout_gravity="center"
+                />
+            <ato.spordiklubi.lasteMV.view.TypefaceTextView
+                android:id="@+id/btn_ball"
+                style="@style/Button.White.Long.Bold"
+                android:layout_marginTop="@dimen/dicipline_fragment_component_top_bottom_margin"
+                android:layout_marginBottom="@dimen/dicipline_fragment_component_top_bottom_margin"
+                android:text="@string/btn_ball"
+                android:layout_gravity="center"
+                />
+            <ato.spordiklubi.lasteMV.view.TypefaceTextView
+                android:id="@+id/btn_run"
+                style="@style/Button.White.Long.Bold"
+                android:layout_marginTop="@dimen/dicipline_fragment_component_top_bottom_margin"
+                android:layout_marginBottom="@dimen/dicipline_fragment_component_top_bottom_margin"
+                android:text="@string/btn_run"
+                android:layout_gravity="center"
+                />
+            <ato.spordiklubi.lasteMV.view.TypefaceTextView
+                android:id="@+id/btn_medicine_ball"
+                style="@style/Button.White.Long.Bold"
+                android:layout_marginTop="@dimen/dicipline_fragment_component_top_bottom_margin"
+                android:layout_marginBottom="@dimen/dicipline_fragment_component_top_bottom_margin"
+                android:text="@string/btn_medicine_ball"
+                android:layout_gravity="center"
+                />
+            <ato.spordiklubi.lasteMV.view.TypefaceTextView
+                android:id="@+id/btn_football"
+                style="@style/Button.White.Long.Bold"
+                android:layout_marginTop="@dimen/dicipline_fragment_component_top_bottom_margin"
+                android:layout_marginBottom="@dimen/dicipline_fragment_component_top_bottom_margin"
+                android:text="@string/btn_football"
+                android:layout_gravity="center"
+                />
+            <ato.spordiklubi.lasteMV.view.TypefaceTextView
+                android:id="@+id/btn_basketball"
+                style="@style/Button.White.Long.Bold"
+                android:layout_marginTop="@dimen/dicipline_fragment_component_top_bottom_margin"
+                android:layout_marginBottom="@dimen/dicipline_fragment_component_top_bottom_margin"
+                android:text="@string/btn_basketball"
+                android:layout_gravity="center"
+                />
+
+            <ato.spordiklubi.lasteMV.view.TypefaceTextView
+                android:id="@+id/btn_volleyball"
+                style="@style/Button.White.Long.Bold"
+                android:layout_marginTop="@dimen/dicipline_fragment_component_top_bottom_margin"
+                android:layout_marginBottom="@dimen/dicipline_fragment_component_top_bottom_margin"
+                android:text="@string/btn_volleyball"
+                android:layout_gravity="center"
+                />
+            <ato.spordiklubi.lasteMV.view.TypefaceTextView
+                android:id="@+id/btn_boxes"
+                style="@style/Button.White.Long.Bold"
+                android:layout_marginTop="@dimen/dicipline_fragment_component_top_bottom_margin"
+                android:layout_marginBottom="@dimen/dicipline_fragment_component_top_bottom_margin"
+                android:text="@string/btn_boxes"
+                android:layout_gravity="center"
+                />
+
+            <ato.spordiklubi.lasteMV.view.TypefaceTextView
+                android:id="@+id/btn_bike"
+                style="@style/Button.White.Long.Bold"
+                android:layout_marginTop="@dimen/dicipline_fragment_component_top_bottom_margin"
+                android:layout_marginBottom="@dimen/dicipline_fragment_component_top_bottom_margin"
+                android:text="@string/btn_bike"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
